@@ -1,0 +1,716 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "dom-and-window-feature-links;navigate-to-key-presses-and-detect-a-pressed-key",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Navigate to Key Presses and detect a pressed key",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 376067799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I am on the Heroku home page",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 766581900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I click the \"Key Presses\" link",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 135078600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I should be on the \"/key_presses\" page",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4734699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the Key Presses input is visible",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55324099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I press the \"Tab\" key in the input",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17563900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "the result should show \"You entered: TAB\"",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7554700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 79811200
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dom-window-links",
+            "line": 5
+          },
+          {
+            "name": "@regression",
+            "line": 5
+          },
+          {
+            "name": "@dom-window-links",
+            "line": 12
+          },
+          {
+            "name": "@smoke",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "dom-and-window-feature-links;navigate-to-large-&-deep-dom-and-verify-deep-cell",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Navigate to Large & Deep DOM and verify deep cell",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 317750800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I am on the Heroku home page",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 680053500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I click the \"Large & Deep DOM\" link",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 117238600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I should be on the \"/large\" page",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 976999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "the large DOM page is loaded",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 161581199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "the deep cell \"sibling-50.3\" exists in the DOM",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10172199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 75409300
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dom-window-links",
+            "line": 5
+          },
+          {
+            "name": "@regression",
+            "line": 5
+          },
+          {
+            "name": "@dom-window-links",
+            "line": 21
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "dom-and-window-feature-links;navigate-to-multiple-windows-and-open-a-new-tab",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Navigate to Multiple Windows and open a new tab",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 360316100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I am on the Heroku home page",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 772046699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "I click the \"Multiple Windows\" link",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 271338600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "I should be on the \"/windows\" page",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2026700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "the Multiple Windows page is loaded",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:76"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 85707800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "I open the new window",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 183179599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "the new window should be at path \"/windows/new\"",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:80"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3582500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "the new window should have heading \"New Window\"",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:84"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 78045100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 151031399
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dom-window-links",
+            "line": 5
+          },
+          {
+            "name": "@regression",
+            "line": 5
+          },
+          {
+            "name": "@dom-window-links",
+            "line": 29
+          },
+          {
+            "name": "@smoke",
+            "line": 29
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "dom-and-window-feature-links;navigate-to-nested-frames-and-verify-frame-content",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "Navigate to Nested Frames and verify frame content",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 533743800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I am on the Heroku home page",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1030446299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 41,
+            "name": "I click the \"Nested Frames\" link",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 150730000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "I should be on the \"/nested_frames\" page",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3666400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "the nested frames should contain texts \"LEFT\", \"MIDDLE\", \"RIGHT\" and \"BOTTOM\"",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:89"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 305761500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 127856499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dom-window-links",
+            "line": 5
+          },
+          {
+            "name": "@regression",
+            "line": 5
+          },
+          {
+            "name": "@dom-window-links",
+            "line": 39
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "dom-and-window-feature-links;navigate-to-notification-messages-and-trigger-a-flash-message",
+        "keyword": "Scenario",
+        "line": 47,
+        "name": "Navigate to Notification Messages and trigger a flash message",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 471362300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I am on the Heroku home page",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 748591500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "I click the \"Notification Messages\" link",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 177102199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "I should be on the \"/notification_message_rendered\" page",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2023000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 50,
+            "name": "the Notification Messages page is loaded",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80538799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 51,
+            "name": "I trigger a notification",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 205655800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 52,
+            "name": "a valid notification flash message should be displayed",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7451699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 98692500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dom-window-links",
+            "line": 5
+          },
+          {
+            "name": "@regression",
+            "line": 5
+          },
+          {
+            "name": "@dom-window-links",
+            "line": 46
+          },
+          {
+            "name": "@smoke",
+            "line": 46
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "dom-and-window-feature-links;navigate-to-redirect-link-and-be-redirected-to-status-codes",
+        "keyword": "Scenario",
+        "line": 56,
+        "name": "Navigate to Redirect Link and be redirected to status codes",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 450012399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I am on the Heroku home page",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 756833599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 57,
+            "name": "I click the \"Redirect Link\" link",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 155047700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 58,
+            "name": "I should be on the \"/redirector\" page",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2759200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 59,
+            "name": "the Redirector page is loaded",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 77974000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 60,
+            "name": "I click the redirect link",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 195884399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 61,
+            "name": "I should be redirected to \"/status_codes\"",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:110"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1429599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 131874099
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dom-window-links",
+            "line": 5
+          },
+          {
+            "name": "@regression",
+            "line": 5
+          },
+          {
+            "name": "@dom-window-links",
+            "line": 55
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "dom-and-window-feature-links",
+    "line": 6,
+    "keyword": "Feature",
+    "name": "Dom and Window Feature Links",
+    "tags": [
+      {
+        "name": "@dom-window-links",
+        "line": 5
+      },
+      {
+        "name": "@regression",
+        "line": 5
+      }
+    ],
+    "uri": "features\\dom-window-links.feature"
+  }
+]

@@ -1,0 +1,666 @@
+[
+  {
+    "description": "  As a user\n  I want to navigate through digest and dynamic links\n  So that key behaviors are validated with UI and API checks",
+    "elements": [
+      {
+        "description": "",
+        "id": "digest-and-dynamic-links-navigation-and-operations;digest-authentication-should-validate-credentials-through-api",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Digest Authentication should validate credentials through API",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 175453200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for auth dynamic suite",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 625649900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I navigate to auth dynamic link \"Digest Authentication\"",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 104151100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should be on auth dynamic path \"/digest_auth\"",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2477799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I verify digest authentication through API",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 197939399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 50873500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@auth-dynamic-links",
+            "line": 2
+          },
+          {
+            "name": "@auth-digest",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "digest-and-dynamic-links-navigation-and-operations;disappearing-elements-should-allow-menu-navigation-operation",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Disappearing Elements should allow menu navigation operation",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 145884099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for auth dynamic suite",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 539800900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I navigate to auth dynamic link \"Disappearing Elements\"",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 73883499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I should be on auth dynamic path \"/disappearing_elements\"",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 587899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I perform disappearing elements operation",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 134036799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 41104600
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@auth-dynamic-links",
+            "line": 2
+          },
+          {
+            "name": "@auth-disappearing-elements",
+            "line": 17
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "digest-and-dynamic-links-navigation-and-operations;drag-and-drop-should-swap-columns",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Drag and Drop should swap columns",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 142803600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for auth dynamic suite",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 534034000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I navigate to auth dynamic link \"Drag and Drop\"",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 83595499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I should be on auth dynamic path \"/drag_and_drop\"",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 619900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I perform drag and drop operation",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39811600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 43676899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@auth-dynamic-links",
+            "line": 2
+          },
+          {
+            "name": "@auth-drag-drop",
+            "line": 23
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "digest-and-dynamic-links-navigation-and-operations;dropdown-should-allow-selecting-multiple-options",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Dropdown should allow selecting multiple options",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 179021299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for auth dynamic suite",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 550339999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "I navigate to auth dynamic link \"Dropdown\"",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 81548800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "I should be on auth dynamic path \"/dropdown\"",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 643399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "I perform dropdown selection operation",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:69"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62279599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 50053199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@auth-dynamic-links",
+            "line": 2
+          },
+          {
+            "name": "@auth-dropdown",
+            "line": 29
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "digest-and-dynamic-links-navigation-and-operations;dynamic-content-should-change-after-refresh",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "Dynamic Content should change after refresh",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 198279199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for auth dynamic suite",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 568068400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "I navigate to auth dynamic link \"Dynamic Content\"",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 96955200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "I should be on auth dynamic path \"/dynamic_content\"",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 986899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "I perform dynamic content refresh operation",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:77"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 178023999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 57935399
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@auth-dynamic-links",
+            "line": 2
+          },
+          {
+            "name": "@auth-dynamic-content",
+            "line": 35
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "digest-and-dynamic-links-navigation-and-operations;dynamic-controls-should-support-checkbox-and-input-operations",
+        "keyword": "Scenario",
+        "line": 42,
+        "name": "Dynamic Controls should support checkbox and input operations",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 224220699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for auth dynamic suite",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 556371299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 43,
+            "name": "I navigate to auth dynamic link \"Dynamic Controls\"",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 85936600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "I should be on auth dynamic path \"/dynamic_controls\"",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 629600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "I perform dynamic controls operation",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12303885299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 44689200
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@auth-dynamic-links",
+            "line": 2
+          },
+          {
+            "name": "@auth-dynamic-controls",
+            "line": 41
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "digest-and-dynamic-links-navigation-and-operations;dynamic-loading-should-show-hello-world-in-both-examples",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "Dynamic Loading should show Hello World in both examples",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 142707099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for auth dynamic suite",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 536592599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 49,
+            "name": "I navigate to auth dynamic link \"Dynamic Loading\"",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 97579600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "I should be on auth dynamic path \"/dynamic_loading\"",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 694999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 51,
+            "name": "I perform dynamic loading operations",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6368269899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 58721400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@auth-dynamic-links",
+            "line": 2
+          },
+          {
+            "name": "@auth-dynamic-loading",
+            "line": 47
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "digest-and-dynamic-links-navigation-and-operations",
+    "line": 3,
+    "keyword": "Feature",
+    "name": "Digest and dynamic links navigation and operations",
+    "tags": [
+      {
+        "name": "@regression",
+        "line": 2
+      },
+      {
+        "name": "@auth-dynamic-links",
+        "line": 2
+      }
+    ],
+    "uri": "features\\auth-dynamic-links.feature"
+  }
+]

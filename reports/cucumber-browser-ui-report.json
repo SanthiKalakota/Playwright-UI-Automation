@@ -1,0 +1,758 @@
+[
+  {
+    "description": "  As a user\n  I want to navigate through browser-driven UI pages\n  So that hover, slider, scroll, dialog, and geolocation behaviors are validated",
+    "elements": [
+      {
+        "description": "",
+        "id": "browser-ui-links-navigation-and-operations;geolocation-should-display-configured-coordinates",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Geolocation should display configured coordinates",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 166686699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for browser UI links suite",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 538563100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I navigate to browser UI link \"Geolocation\"",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 88860100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should be on browser UI path \"/geolocation\"",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4630000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I perform geolocation operation",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 89002700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 59495899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@browser-ui-links",
+            "line": 2
+          },
+          {
+            "name": "@browser-geolocation",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "browser-ui-links-navigation-and-operations;horizontal-slider-should-move-to-the-target-value",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Horizontal Slider should move to the target value",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 197386700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for browser UI links suite",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 541701699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I navigate to browser UI link \"Horizontal Slider\"",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 87405600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I should be on browser UI path \"/horizontal_slider\"",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 647500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I perform horizontal slider operation",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 106029100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 38159299
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@browser-ui-links",
+            "line": 2
+          },
+          {
+            "name": "@browser-horizontal-slider",
+            "line": 17
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "browser-ui-links-navigation-and-operations;hovers-should-reveal-the-first-user-profile",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Hovers should reveal the first user profile",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 139040999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for browser UI links suite",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 533828100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I navigate to browser UI link \"Hovers\"",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 76719999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I should be on browser UI path \"/hovers\"",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 539700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I perform hovers operation",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80253200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 44198100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@browser-ui-links",
+            "line": 2
+          },
+          {
+            "name": "@browser-hovers",
+            "line": 23
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "browser-ui-links-navigation-and-operations;infinite-scroll-should-load-more-content",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Infinite Scroll should load more content",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 164654999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for browser UI links suite",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 545630400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "I navigate to browser UI link \"Infinite Scroll\"",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 95878199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "I should be on browser UI path \"/infinite_scroll\"",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 502499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "I perform infinite scroll operation",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1701752700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 42607899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@browser-ui-links",
+            "line": 2
+          },
+          {
+            "name": "@browser-infinite-scroll",
+            "line": 29
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "browser-ui-links-navigation-and-operations;inputs-should-accept-and-increment-a-numeric-value",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "Inputs should accept and increment a numeric value",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 169211699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for browser UI links suite",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 536567500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "I navigate to browser UI link \"Inputs\"",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 83465000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "I should be on browser UI path \"/inputs\"",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 782400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "I perform inputs operation",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63284999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 49457100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@browser-ui-links",
+            "line": 2
+          },
+          {
+            "name": "@browser-inputs",
+            "line": 35
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "browser-ui-links-navigation-and-operations;jquery-ui-menus-should-open-the-downloads-submenu",
+        "keyword": "Scenario",
+        "line": 42,
+        "name": "JQuery UI Menus should open the Downloads submenu",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 183913300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for browser UI links suite",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 540957300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 43,
+            "name": "I navigate to browser UI link \"JQuery UI Menus\"",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 108862699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "I should be on browser UI path \"/jqueryui/menu\"",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 502800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "I perform jquery ui menus operation",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1060811200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 134646999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@browser-ui-links",
+            "line": 2
+          },
+          {
+            "name": "@browser-jquery-ui-menus",
+            "line": 41
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "browser-ui-links-navigation-and-operations;javascript-alerts-should-handle-alert-confirm-and-prompt-dialogs",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "JavaScript Alerts should handle alert confirm and prompt dialogs",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 228442699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for browser UI links suite",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 645253499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 49,
+            "name": "I navigate to browser UI link \"JavaScript Alerts\"",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 96434799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "I should be on browser UI path \"/javascript_alerts\"",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1832399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 51,
+            "name": "I perform javascript alerts operations",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 66921800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 53760499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@browser-ui-links",
+            "line": 2
+          },
+          {
+            "name": "@browser-javascript-alerts",
+            "line": 47
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "browser-ui-links-navigation-and-operations;javascript-onload-event-error-should-expose-page-error-behavior",
+        "keyword": "Scenario",
+        "line": 54,
+        "name": "JavaScript onload event error should expose page error behavior",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 198131800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for browser UI links suite",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 546486100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 55,
+            "name": "I navigate to browser UI link \"JavaScript onload event error\"",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 94257100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "I should be on browser UI path \"/javascript_error\"",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 560799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 57,
+            "name": "I perform javascript error operation",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:83"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 333194199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 46392299
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@browser-ui-links",
+            "line": 2
+          },
+          {
+            "name": "@browser-javascript-error",
+            "line": 53
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "browser-ui-links-navigation-and-operations",
+    "line": 3,
+    "keyword": "Feature",
+    "name": "Browser UI links navigation and operations",
+    "tags": [
+      {
+        "name": "@regression",
+        "line": 2
+      },
+      {
+        "name": "@browser-ui-links",
+        "line": 2
+      }
+    ],
+    "uri": "features\\browser-ui-links.feature"
+  }
+]

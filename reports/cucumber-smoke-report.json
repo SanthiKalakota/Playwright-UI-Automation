@@ -1,0 +1,728 @@
+[
+  {
+    "description": "  As a user\n  I want to navigate to the Add/Remove Elements page from the homepage\n  So that I can dynamically add and remove elements and verify the counts",
+    "elements": [
+      {
+        "description": "",
+        "id": "add/remove-elements;navigate-to-add/remove-elements-page-from-homepage",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Navigate to Add/Remove Elements page from homepage",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 263617299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open the The Internet homepage",
+            "match": {
+              "location": "features\\step-definitions\\navigation-links.steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 597406000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I navigate to \"Add/Remove Elements\" link",
+            "match": {
+              "location": "features\\step-definitions\\navigation-links.steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 124128099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should be on path \"/add_remove_elements/\"",
+            "match": {
+              "location": "features\\step-definitions\\navigation-links.steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5837999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 75725899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@add-remove",
+            "line": 2
+          },
+          {
+            "name": "@smoke",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "add/remove-elements",
+    "line": 3,
+    "keyword": "Feature",
+    "name": "Add/Remove Elements",
+    "tags": [
+      {
+        "name": "@regression",
+        "line": 2
+      },
+      {
+        "name": "@add-remove",
+        "line": 2
+      }
+    ],
+    "uri": "features\\add-remove-elements.feature"
+  },
+  {
+    "description": "  As a user\n  I want to navigate to advanced links and execute key operations\n  So that critical behavior is validated end-to-end",
+    "elements": [
+      {
+        "description": "",
+        "id": "advanced-link-navigation-and-operations;basic-auth-link-should-allow-successful-authentication",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Basic Auth link should allow successful authentication",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 254656099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open The Internet homepage for advanced links suite",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 669563000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I navigate to advanced link \"Basic Auth\"",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 100733600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I authenticate advanced Basic Auth with configured credentials",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 243904300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I should land on advanced path \"/basic_auth\"",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1570499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I should see advanced Basic Auth success content",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31175099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 73171400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@advanced-links",
+            "line": 2
+          },
+          {
+            "name": "@smoke",
+            "line": 11
+          },
+          {
+            "name": "@advanced-basic-auth",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "advanced-link-navigation-and-operations",
+    "line": 3,
+    "keyword": "Feature",
+    "name": "Advanced link navigation and operations",
+    "tags": [
+      {
+        "name": "@regression",
+        "line": 2
+      },
+      {
+        "name": "@advanced-links",
+        "line": 2
+      }
+    ],
+    "uri": "features\\advanced-links.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "dom-and-window-feature-links;navigate-to-key-presses-and-detect-a-pressed-key",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Navigate to Key Presses and detect a pressed key",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 253065499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I am on the Heroku home page",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 582715599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I click the \"Key Presses\" link",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 101087700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I should be on the \"/key_presses\" page",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1267699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the Key Presses input is visible",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55058700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I press the \"Tab\" key in the input",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15214299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "the result should show \"You entered: TAB\"",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5796299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 79157100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dom-window-links",
+            "line": 5
+          },
+          {
+            "name": "@regression",
+            "line": 5
+          },
+          {
+            "name": "@dom-window-links",
+            "line": 12
+          },
+          {
+            "name": "@smoke",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "dom-and-window-feature-links;navigate-to-multiple-windows-and-open-a-new-tab",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Navigate to Multiple Windows and open a new tab",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 248333799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I am on the Heroku home page",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 586206099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "I click the \"Multiple Windows\" link",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 118626100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "I should be on the \"/windows\" page",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 879600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "the Multiple Windows page is loaded",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:76"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 56293900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "I open the new window",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 124941299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "the new window should be at path \"/windows/new\"",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:80"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1233799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "the new window should have heading \"New Window\"",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:84"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40351899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 68689500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dom-window-links",
+            "line": 5
+          },
+          {
+            "name": "@regression",
+            "line": 5
+          },
+          {
+            "name": "@dom-window-links",
+            "line": 29
+          },
+          {
+            "name": "@smoke",
+            "line": 29
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "dom-and-window-feature-links;navigate-to-notification-messages-and-trigger-a-flash-message",
+        "keyword": "Scenario",
+        "line": 47,
+        "name": "Navigate to Notification Messages and trigger a flash message",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 252819199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I am on the Heroku home page",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 592450799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "I click the \"Notification Messages\" link",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 151179100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "I should be on the \"/notification_message_rendered\" page",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 968700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 50,
+            "name": "the Notification Messages page is loaded",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58123500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 51,
+            "name": "I trigger a notification",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 167505799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 52,
+            "name": "a valid notification flash message should be displayed",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5513299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 69388899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dom-window-links",
+            "line": 5
+          },
+          {
+            "name": "@regression",
+            "line": 5
+          },
+          {
+            "name": "@dom-window-links",
+            "line": 46
+          },
+          {
+            "name": "@smoke",
+            "line": 46
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "dom-and-window-feature-links",
+    "line": 6,
+    "keyword": "Feature",
+    "name": "Dom and Window Feature Links",
+    "tags": [
+      {
+        "name": "@dom-window-links",
+        "line": 5
+      },
+      {
+        "name": "@regression",
+        "line": 5
+      }
+    ],
+    "uri": "features\\dom-window-links.feature"
+  },
+  {
+    "description": "  As a user\n  I want to navigate to the A/B Testing page from the homepage\n  So that I can verify the page loads with correct content",
+    "elements": [
+      {
+        "description": "",
+        "id": "a/b-testing;navigate-to-a/b-testing-page-from-homepage",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Navigate to A/B Testing page from homepage",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 254342799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open the The Internet homepage",
+            "match": {
+              "location": "features\\step-definitions\\navigation-links.steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 591126899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I navigate to \"A/B Testing\" link",
+            "match": {
+              "location": "features\\step-definitions\\navigation-links.steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 105259000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should be on path \"/abtest\"",
+            "match": {
+              "location": "features\\step-definitions\\navigation-links.steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 863799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 69238899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@ab-testing",
+            "line": 2
+          },
+          {
+            "name": "@smoke",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "a/b-testing",
+    "line": 3,
+    "keyword": "Feature",
+    "name": "A/B Testing",
+    "tags": [
+      {
+        "name": "@regression",
+        "line": 2
+      },
+      {
+        "name": "@ab-testing",
+        "line": 2
+      }
+    ],
+    "uri": "features\\navigation-links.feature"
+  }
+]

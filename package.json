@@ -1,0 +1,25 @@
+{
+  "name": "aiagentmcp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test:bdd",
+    "test:all:reports": "npm run test:bdd && npm run test:bdd:smoke && npm run test:bdd:regression && npm run test:bdd:advanced && npm run test:bdd:auth-dynamic && npm run test:bdd:interaction && npm run test:bdd:browser-ui && npm run test:bdd:secure-dom",
+    "test:bdd": "cucumber-js --require features/step-definitions/**/*.js --format progress --format json:reports/cucumber-report.json --format html:reports/cucumber-report.html",
+    "test:bdd:smoke": "cucumber-js --require features/step-definitions/**/*.js --tags @smoke --format progress --format json:reports/cucumber-smoke-report.json --format html:reports/cucumber-smoke-report.html",
+    "test:bdd:regression": "cucumber-js --require features/step-definitions/**/*.js --tags @regression --format progress --format json:reports/cucumber-regression-report.json --format html:reports/cucumber-regression-report.html",
+    "test:bdd:advanced": "cucumber-js --require features/step-definitions/**/*.js --tags @advanced-links --format progress --format json:reports/cucumber-advanced-report.json --format html:reports/cucumber-advanced-report.html",
+    "test:bdd:auth-dynamic": "cucumber-js --require features/step-definitions/**/*.js --tags @auth-dynamic-links --format progress --format json:reports/cucumber-auth-dynamic-report.json --format html:reports/cucumber-auth-dynamic-report.html",
+    "test:bdd:interaction": "cucumber-js --require features/step-definitions/**/*.js --tags @interaction-links --format progress --format json:reports/cucumber-interaction-report.json --format html:reports/cucumber-interaction-report.html",
+    "test:bdd:browser-ui": "cucumber-js --require features/step-definitions/**/*.js --tags @browser-ui-links --format progress --format json:reports/cucumber-browser-ui-report.json --format html:reports/cucumber-browser-ui-report.html",
+    "test:bdd:secure-dom": "cucumber-js --require features/step-definitions/**/*.js --tags @secure-dom-links --format progress --format json:reports/cucumber-secure-dom-report.json --format html:reports/cucumber-secure-dom-report.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.3.0",
+    "@playwright/test": "^1.58.2"
+  }
+}

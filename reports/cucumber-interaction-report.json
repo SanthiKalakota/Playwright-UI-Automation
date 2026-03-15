@@ -1,0 +1,758 @@
+[
+  {
+    "description": "  As a user\n  I want to navigate through interaction-heavy links\n  So that modal, file, auth, and frame behaviors are validated",
+    "elements": [
+      {
+        "description": "",
+        "id": "interaction-heavy-links-navigation-and-operations;entry-ad-should-show-and-close-the-modal",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Entry Ad should show and close the modal",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 182211300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for interaction links suite",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 550179000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I navigate to interaction link \"Entry Ad\"",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 79433099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should be on interaction path \"/entry_ad\"",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3106199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I perform entry ad operation",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 974058100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 49790800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@interaction-links",
+            "line": 2
+          },
+          {
+            "name": "@interaction-entry-ad",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "interaction-heavy-links-navigation-and-operations;exit-intent-should-show-the-modal-on-exit",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Exit Intent should show the modal on exit",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 133551600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for interaction links suite",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 547270599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I navigate to interaction link \"Exit Intent\"",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 181187000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I should be on interaction path \"/exit_intent\"",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 944600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I perform exit intent operation",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 542529000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 39989199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@interaction-links",
+            "line": 2
+          },
+          {
+            "name": "@interaction-exit-intent",
+            "line": 17
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "interaction-heavy-links-navigation-and-operations;file-download-should-download-a-file-and-expose-a-valid-link",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "File Download should download a file and expose a valid link",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 142167499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for interaction links suite",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 531080700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I navigate to interaction link \"File Download\"",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 81149500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I should be on interaction path \"/download\"",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 553799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I perform file download operation",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 308548399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 97256800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@interaction-links",
+            "line": 2
+          },
+          {
+            "name": "@interaction-file-download",
+            "line": 23
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "interaction-heavy-links-navigation-and-operations;file-upload-should-upload-a-sample-file",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "File Upload should upload a sample file",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 149628700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for interaction links suite",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 583250900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "I navigate to interaction link \"File Upload\"",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 89480100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "I should be on interaction path \"/upload\"",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 506699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "I perform file upload operation",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 263878999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 38006699
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@interaction-links",
+            "line": 2
+          },
+          {
+            "name": "@interaction-file-upload",
+            "line": 29
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "interaction-heavy-links-navigation-and-operations;floating-menu-should-stay-visible-while-scrolling",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "Floating Menu should stay visible while scrolling",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 149729099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for interaction links suite",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 531001599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "I navigate to interaction link \"Floating Menu\"",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 100116500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "I should be on interaction path \"/floating_menu\"",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 552399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "I perform floating menu operation",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 83638100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 38865700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@interaction-links",
+            "line": 2
+          },
+          {
+            "name": "@interaction-floating-menu",
+            "line": 35
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "interaction-heavy-links-navigation-and-operations;forgot-password-should-submit-the-email-form",
+        "keyword": "Scenario",
+        "line": 42,
+        "name": "Forgot Password should submit the email form",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 152655899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for interaction links suite",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 535489699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 43,
+            "name": "I navigate to interaction link \"Forgot Password\"",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 101519600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "I should be on interaction path \"/forgot_password\"",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 503099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "I perform forgot password operation",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:75"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 491997400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 57545699
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@interaction-links",
+            "line": 2
+          },
+          {
+            "name": "@interaction-forgot-password",
+            "line": 41
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "interaction-heavy-links-navigation-and-operations;form-authentication-should-login-and-logout-successfully",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "Form Authentication should login and logout successfully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 159344099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for interaction links suite",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 528670699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 49,
+            "name": "I navigate to interaction link \"Form Authentication\"",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 76003700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "I should be on interaction path \"/login\"",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 809100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 51,
+            "name": "I perform form authentication operation",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 412395599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 41361100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@interaction-links",
+            "line": 2
+          },
+          {
+            "name": "@interaction-form-authentication",
+            "line": 47
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "interaction-heavy-links-navigation-and-operations;frames-should-support-iframe-and-nested-frame-checks",
+        "keyword": "Scenario",
+        "line": 54,
+        "name": "Frames should support iframe and nested frame checks",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 177498000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for interaction links suite",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 532624300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 55,
+            "name": "I navigate to interaction link \"Frames\"",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 84574099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "I should be on interaction path \"/frames\"",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 744300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 57,
+            "name": "I perform frames operations",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:92"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1328969300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 47764199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@interaction-links",
+            "line": 2
+          },
+          {
+            "name": "@interaction-frames",
+            "line": 53
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "interaction-heavy-links-navigation-and-operations",
+    "line": 3,
+    "keyword": "Feature",
+    "name": "Interaction-heavy links navigation and operations",
+    "tags": [
+      {
+        "name": "@regression",
+        "line": 2
+      },
+      {
+        "name": "@interaction-links",
+        "line": 2
+      }
+    ],
+    "uri": "features\\interaction-links.feature"
+  }
+]

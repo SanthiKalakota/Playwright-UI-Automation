@@ -1,0 +1,499 @@
+[
+  {
+    "description": "  As a user\n  I want to navigate to advanced links and execute key operations\n  So that critical behavior is validated end-to-end",
+    "elements": [
+      {
+        "description": "",
+        "id": "advanced-link-navigation-and-operations;basic-auth-link-should-allow-successful-authentication",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Basic Auth link should allow successful authentication",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 180633600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open The Internet homepage for advanced links suite",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 541133500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I navigate to advanced link \"Basic Auth\"",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 81396799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I authenticate advanced Basic Auth with configured credentials",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 148514700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I should land on advanced path \"/basic_auth\"",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2348800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I should see advanced Basic Auth success content",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19439100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 46617000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@advanced-links",
+            "line": 2
+          },
+          {
+            "name": "@smoke",
+            "line": 11
+          },
+          {
+            "name": "@advanced-basic-auth",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "advanced-link-navigation-and-operations;broken-images-page-should-show-broken-assets-in-ui-and-api",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Broken Images page should show broken assets in UI and API",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 143548800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open The Internet homepage for advanced links suite",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 536520000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I navigate to advanced link \"Broken Images\"",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 89524300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "I should land on advanced path \"/broken_images\"",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 581099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I should validate broken images through UI and API",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 382314800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 44782400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@advanced-links",
+            "line": 2
+          },
+          {
+            "name": "@advanced-broken-images",
+            "line": 18
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "advanced-link-navigation-and-operations;challenging-dom-page-should-support-table-actions",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Challenging DOM page should support table actions",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 156199799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open The Internet homepage for advanced links suite",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 541660899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "I navigate to advanced link \"Challenging DOM\"",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 107322900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "I should land on advanced path \"/challenging_dom\"",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 606799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I perform advanced Challenging DOM operations",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 525645700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 49462799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@advanced-links",
+            "line": 2
+          },
+          {
+            "name": "@advanced-challenging-dom",
+            "line": 24
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "advanced-link-navigation-and-operations;checkboxes-page-should-support-toggle-operations",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Checkboxes page should support toggle operations",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 190052099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open The Internet homepage for advanced links suite",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 612311899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "I navigate to advanced link \"Checkboxes\"",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 83298900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "I should land on advanced path \"/checkboxes\"",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 989899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "I perform advanced checkbox operations",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 127308399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 52469500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@advanced-links",
+            "line": 2
+          },
+          {
+            "name": "@advanced-checkboxes",
+            "line": 30
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "advanced-link-navigation-and-operations;context-menu-page-should-show-context-alert",
+        "keyword": "Scenario",
+        "line": 37,
+        "name": "Context Menu page should show context alert",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 200756399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open The Internet homepage for advanced links suite",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 547793700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "I navigate to advanced link \"Context Menu\"",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 82490700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "I should land on advanced path \"/context_menu\"",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 636099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "I perform advanced context menu operation",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 99457699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 61611899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@advanced-links",
+            "line": 2
+          },
+          {
+            "name": "@advanced-context-menu",
+            "line": 36
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "advanced-link-navigation-and-operations",
+    "line": 3,
+    "keyword": "Feature",
+    "name": "Advanced link navigation and operations",
+    "tags": [
+      {
+        "name": "@regression",
+        "line": 2
+      },
+      {
+        "name": "@advanced-links",
+        "line": 2
+      }
+    ],
+    "uri": "features\\advanced-links.feature"
+  }
+]

@@ -1,0 +1,4786 @@
+[
+  {
+    "description": "  As a user\n  I want to navigate to the Add/Remove Elements page from the homepage\n  So that I can dynamically add and remove elements and verify the counts",
+    "elements": [
+      {
+        "description": "",
+        "id": "add/remove-elements;navigate-to-add/remove-elements-page-from-homepage",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Navigate to Add/Remove Elements page from homepage",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 297333000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open the The Internet homepage",
+            "match": {
+              "location": "features\\step-definitions\\navigation-links.steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3319112500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I navigate to \"Add/Remove Elements\" link",
+            "match": {
+              "location": "features\\step-definitions\\navigation-links.steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 104671800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should be on path \"/add_remove_elements/\"",
+            "match": {
+              "location": "features\\step-definitions\\navigation-links.steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2559500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 45595299
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@add-remove",
+            "line": 2
+          },
+          {
+            "name": "@smoke",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "add/remove-elements;add-multiple-elements-and-verify-count",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Add multiple elements and verify count",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 138587000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open the The Internet homepage",
+            "match": {
+              "location": "features\\step-definitions\\navigation-links.steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 557951299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I navigate to \"Add/Remove Elements\" link",
+            "match": {
+              "location": "features\\step-definitions\\navigation-links.steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 87637600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I should be on path \"/add_remove_elements/\"",
+            "match": {
+              "location": "features\\step-definitions\\navigation-links.steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 766900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I add 3 elements",
+            "match": {
+              "location": "features\\step-definitions\\navigation-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 144664000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I should see 3 delete buttons",
+            "match": {
+              "location": "features\\step-definitions\\navigation-links.steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3558800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 40525899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@add-remove",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "add/remove-elements;remove-all-added-elements-and-verify-empty-state",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Remove all added elements and verify empty state",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 147573699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open the The Internet homepage",
+            "match": {
+              "location": "features\\step-definitions\\navigation-links.steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 544131599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I navigate to \"Add/Remove Elements\" link",
+            "match": {
+              "location": "features\\step-definitions\\navigation-links.steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 84252700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I should be on path \"/add_remove_elements/\"",
+            "match": {
+              "location": "features\\step-definitions\\navigation-links.steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 641099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I add 3 elements",
+            "match": {
+              "location": "features\\step-definitions\\navigation-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 142621099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I should see 3 delete buttons",
+            "match": {
+              "location": "features\\step-definitions\\navigation-links.steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2870599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "I remove all elements",
+            "match": {
+              "location": "features\\step-definitions\\navigation-links.steps.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 95843400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "I should see 0 delete buttons",
+            "match": {
+              "location": "features\\step-definitions\\navigation-links.steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2680800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 44185600
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@add-remove",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "add/remove-elements;add-a-single-element-and-remove-it",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Add a single element and remove it",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 170922900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open the The Internet homepage",
+            "match": {
+              "location": "features\\step-definitions\\navigation-links.steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 534914300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "I navigate to \"Add/Remove Elements\" link",
+            "match": {
+              "location": "features\\step-definitions\\navigation-links.steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 83055600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "I should be on path \"/add_remove_elements/\"",
+            "match": {
+              "location": "features\\step-definitions\\navigation-links.steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 564799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "I add 1 elements",
+            "match": {
+              "location": "features\\step-definitions\\navigation-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65587499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "I should see 1 delete buttons",
+            "match": {
+              "location": "features\\step-definitions\\navigation-links.steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2957599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "I remove all elements",
+            "match": {
+              "location": "features\\step-definitions\\navigation-links.steps.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45887700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "I should see 0 delete buttons",
+            "match": {
+              "location": "features\\step-definitions\\navigation-links.steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2788800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 65669300
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@add-remove",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "add/remove-elements",
+    "line": 3,
+    "keyword": "Feature",
+    "name": "Add/Remove Elements",
+    "tags": [
+      {
+        "name": "@regression",
+        "line": 2
+      },
+      {
+        "name": "@add-remove",
+        "line": 2
+      }
+    ],
+    "uri": "features\\add-remove-elements.feature"
+  },
+  {
+    "description": "  As a user\n  I want to navigate to advanced links and execute key operations\n  So that critical behavior is validated end-to-end",
+    "elements": [
+      {
+        "description": "",
+        "id": "advanced-link-navigation-and-operations;basic-auth-link-should-allow-successful-authentication",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Basic Auth link should allow successful authentication",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 171423200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open The Internet homepage for advanced links suite",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 609238900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I navigate to advanced link \"Basic Auth\"",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 81499299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I authenticate advanced Basic Auth with configured credentials",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 157577200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I should land on advanced path \"/basic_auth\"",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 812200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I should see advanced Basic Auth success content",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16387899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 47416300
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@advanced-links",
+            "line": 2
+          },
+          {
+            "name": "@smoke",
+            "line": 11
+          },
+          {
+            "name": "@advanced-basic-auth",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "advanced-link-navigation-and-operations;broken-images-page-should-show-broken-assets-in-ui-and-api",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Broken Images page should show broken assets in UI and API",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 179239500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open The Internet homepage for advanced links suite",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 540317799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I navigate to advanced link \"Broken Images\"",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 90353100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "I should land on advanced path \"/broken_images\"",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 678700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I should validate broken images through UI and API",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 338690899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 57203199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@advanced-links",
+            "line": 2
+          },
+          {
+            "name": "@advanced-broken-images",
+            "line": 18
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "advanced-link-navigation-and-operations;challenging-dom-page-should-support-table-actions",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Challenging DOM page should support table actions",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 168718100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open The Internet homepage for advanced links suite",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 536181599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "I navigate to advanced link \"Challenging DOM\"",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 94583700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "I should land on advanced path \"/challenging_dom\"",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 574500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I perform advanced Challenging DOM operations",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 467728499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 42081700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@advanced-links",
+            "line": 2
+          },
+          {
+            "name": "@advanced-challenging-dom",
+            "line": 24
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "advanced-link-navigation-and-operations;checkboxes-page-should-support-toggle-operations",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Checkboxes page should support toggle operations",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 179870300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open The Internet homepage for advanced links suite",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 537375199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "I navigate to advanced link \"Checkboxes\"",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 75801600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "I should land on advanced path \"/checkboxes\"",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 617799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "I perform advanced checkbox operations",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 128569199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 43820100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@advanced-links",
+            "line": 2
+          },
+          {
+            "name": "@advanced-checkboxes",
+            "line": 30
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "advanced-link-navigation-and-operations;context-menu-page-should-show-context-alert",
+        "keyword": "Scenario",
+        "line": 37,
+        "name": "Context Menu page should show context alert",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 179563799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open The Internet homepage for advanced links suite",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 542689899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "I navigate to advanced link \"Context Menu\"",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 100580900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "I should land on advanced path \"/context_menu\"",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 608899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "I perform advanced context menu operation",
+            "match": {
+              "location": "features\\step-definitions\\advanced-links.steps.js:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 89410700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 46793300
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@advanced-links",
+            "line": 2
+          },
+          {
+            "name": "@advanced-context-menu",
+            "line": 36
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "advanced-link-navigation-and-operations",
+    "line": 3,
+    "keyword": "Feature",
+    "name": "Advanced link navigation and operations",
+    "tags": [
+      {
+        "name": "@regression",
+        "line": 2
+      },
+      {
+        "name": "@advanced-links",
+        "line": 2
+      }
+    ],
+    "uri": "features\\advanced-links.feature"
+  },
+  {
+    "description": "  As a user\n  I want to navigate through digest and dynamic links\n  So that key behaviors are validated with UI and API checks",
+    "elements": [
+      {
+        "description": "",
+        "id": "digest-and-dynamic-links-navigation-and-operations;digest-authentication-should-validate-credentials-through-api",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Digest Authentication should validate credentials through API",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 178731499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for auth dynamic suite",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 538782500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I navigate to auth dynamic link \"Digest Authentication\"",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 76599699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should be on auth dynamic path \"/digest_auth\"",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 634799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I verify digest authentication through API",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57896199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 56854900
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@auth-dynamic-links",
+            "line": 2
+          },
+          {
+            "name": "@auth-digest",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "digest-and-dynamic-links-navigation-and-operations;disappearing-elements-should-allow-menu-navigation-operation",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Disappearing Elements should allow menu navigation operation",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 174671899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for auth dynamic suite",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 535627699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I navigate to auth dynamic link \"Disappearing Elements\"",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 84022600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I should be on auth dynamic path \"/disappearing_elements\"",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 548199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I perform disappearing elements operation",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 147333999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 48018899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@auth-dynamic-links",
+            "line": 2
+          },
+          {
+            "name": "@auth-disappearing-elements",
+            "line": 17
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "digest-and-dynamic-links-navigation-and-operations;drag-and-drop-should-swap-columns",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Drag and Drop should swap columns",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 168825600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for auth dynamic suite",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 562670399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I navigate to auth dynamic link \"Drag and Drop\"",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 97854699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I should be on auth dynamic path \"/drag_and_drop\"",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 501200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I perform drag and drop operation",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40083900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 47675100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@auth-dynamic-links",
+            "line": 2
+          },
+          {
+            "name": "@auth-drag-drop",
+            "line": 23
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "digest-and-dynamic-links-navigation-and-operations;dropdown-should-allow-selecting-multiple-options",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Dropdown should allow selecting multiple options",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 181657299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for auth dynamic suite",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 547390199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "I navigate to auth dynamic link \"Dropdown\"",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 82519200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "I should be on auth dynamic path \"/dropdown\"",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 509399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "I perform dropdown selection operation",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:69"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54371699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 47963200
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@auth-dynamic-links",
+            "line": 2
+          },
+          {
+            "name": "@auth-dropdown",
+            "line": 29
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "digest-and-dynamic-links-navigation-and-operations;dynamic-content-should-change-after-refresh",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "Dynamic Content should change after refresh",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 204236499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for auth dynamic suite",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 600085800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "I navigate to auth dynamic link \"Dynamic Content\"",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 77437799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "I should be on auth dynamic path \"/dynamic_content\"",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 628799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "I perform dynamic content refresh operation",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:77"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 157474399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 54997400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@auth-dynamic-links",
+            "line": 2
+          },
+          {
+            "name": "@auth-dynamic-content",
+            "line": 35
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "digest-and-dynamic-links-navigation-and-operations;dynamic-controls-should-support-checkbox-and-input-operations",
+        "keyword": "Scenario",
+        "line": 42,
+        "name": "Dynamic Controls should support checkbox and input operations",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 168424899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for auth dynamic suite",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 533644599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 43,
+            "name": "I navigate to auth dynamic link \"Dynamic Controls\"",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 96877400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "I should be on auth dynamic path \"/dynamic_controls\"",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 483899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "I perform dynamic controls operation",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12278976000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 43136099
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@auth-dynamic-links",
+            "line": 2
+          },
+          {
+            "name": "@auth-dynamic-controls",
+            "line": 41
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "digest-and-dynamic-links-navigation-and-operations;dynamic-loading-should-show-hello-world-in-both-examples",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "Dynamic Loading should show Hello World in both examples",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 159661499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for auth dynamic suite",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 545538800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 49,
+            "name": "I navigate to auth dynamic link \"Dynamic Loading\"",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 71250299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "I should be on auth dynamic path \"/dynamic_loading\"",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 509600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 51,
+            "name": "I perform dynamic loading operations",
+            "match": {
+              "location": "features\\step-definitions\\auth-dynamic-links.steps.js:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6380445800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 55396000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@auth-dynamic-links",
+            "line": 2
+          },
+          {
+            "name": "@auth-dynamic-loading",
+            "line": 47
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "digest-and-dynamic-links-navigation-and-operations",
+    "line": 3,
+    "keyword": "Feature",
+    "name": "Digest and dynamic links navigation and operations",
+    "tags": [
+      {
+        "name": "@regression",
+        "line": 2
+      },
+      {
+        "name": "@auth-dynamic-links",
+        "line": 2
+      }
+    ],
+    "uri": "features\\auth-dynamic-links.feature"
+  },
+  {
+    "description": "  As a user\n  I want to navigate through browser-driven UI pages\n  So that hover, slider, scroll, dialog, and geolocation behaviors are validated",
+    "elements": [
+      {
+        "description": "",
+        "id": "browser-ui-links-navigation-and-operations;geolocation-should-display-configured-coordinates",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Geolocation should display configured coordinates",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 151421799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for browser UI links suite",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 539877500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I navigate to browser UI link \"Geolocation\"",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 117028999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should be on browser UI path \"/geolocation\"",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 530700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I perform geolocation operation",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 174695299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 48111300
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@browser-ui-links",
+            "line": 2
+          },
+          {
+            "name": "@browser-geolocation",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "browser-ui-links-navigation-and-operations;horizontal-slider-should-move-to-the-target-value",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Horizontal Slider should move to the target value",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 148350299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for browser UI links suite",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 529430899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I navigate to browser UI link \"Horizontal Slider\"",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 88747000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I should be on browser UI path \"/horizontal_slider\"",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 577900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I perform horizontal slider operation",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 113671200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 44150399
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@browser-ui-links",
+            "line": 2
+          },
+          {
+            "name": "@browser-horizontal-slider",
+            "line": 17
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "browser-ui-links-navigation-and-operations;hovers-should-reveal-the-first-user-profile",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Hovers should reveal the first user profile",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 167016600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for browser UI links suite",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 546728900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I navigate to browser UI link \"Hovers\"",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 100983699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I should be on browser UI path \"/hovers\"",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 830800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I perform hovers operation",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 99583700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 44729400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@browser-ui-links",
+            "line": 2
+          },
+          {
+            "name": "@browser-hovers",
+            "line": 23
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "browser-ui-links-navigation-and-operations;infinite-scroll-should-load-more-content",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Infinite Scroll should load more content",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 166450100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for browser UI links suite",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 546172200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "I navigate to browser UI link \"Infinite Scroll\"",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 122731100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "I should be on browser UI path \"/infinite_scroll\"",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 942100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "I perform infinite scroll operation",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1733366799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 43808399
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@browser-ui-links",
+            "line": 2
+          },
+          {
+            "name": "@browser-infinite-scroll",
+            "line": 29
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "browser-ui-links-navigation-and-operations;inputs-should-accept-and-increment-a-numeric-value",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "Inputs should accept and increment a numeric value",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 174530800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for browser UI links suite",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 629620199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "I navigate to browser UI link \"Inputs\"",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 102020399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "I should be on browser UI path \"/inputs\"",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 693399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "I perform inputs operation",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50963100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 44500899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@browser-ui-links",
+            "line": 2
+          },
+          {
+            "name": "@browser-inputs",
+            "line": 35
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "browser-ui-links-navigation-and-operations;jquery-ui-menus-should-open-the-downloads-submenu",
+        "keyword": "Scenario",
+        "line": 42,
+        "name": "JQuery UI Menus should open the Downloads submenu",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 169524199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for browser UI links suite",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 575394699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 43,
+            "name": "I navigate to browser UI link \"JQuery UI Menus\"",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 71538100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "I should be on browser UI path \"/jqueryui/menu\"",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 703900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "I perform jquery ui menus operation",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 978418999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 112064500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@browser-ui-links",
+            "line": 2
+          },
+          {
+            "name": "@browser-jquery-ui-menus",
+            "line": 41
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "browser-ui-links-navigation-and-operations;javascript-alerts-should-handle-alert-confirm-and-prompt-dialogs",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "JavaScript Alerts should handle alert confirm and prompt dialogs",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 171965600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for browser UI links suite",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 532967600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 49,
+            "name": "I navigate to browser UI link \"JavaScript Alerts\"",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 87355799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "I should be on browser UI path \"/javascript_alerts\"",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 645599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 51,
+            "name": "I perform javascript alerts operations",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60886400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 46248299
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@browser-ui-links",
+            "line": 2
+          },
+          {
+            "name": "@browser-javascript-alerts",
+            "line": 47
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "browser-ui-links-navigation-and-operations;javascript-onload-event-error-should-expose-page-error-behavior",
+        "keyword": "Scenario",
+        "line": 54,
+        "name": "JavaScript onload event error should expose page error behavior",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 235088700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for browser UI links suite",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 538238900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 55,
+            "name": "I navigate to browser UI link \"JavaScript onload event error\"",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 94945700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "I should be on browser UI path \"/javascript_error\"",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 523699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 57,
+            "name": "I perform javascript error operation",
+            "match": {
+              "location": "features\\step-definitions\\browser-ui-links.steps.js:83"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 220731200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 42620399
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@browser-ui-links",
+            "line": 2
+          },
+          {
+            "name": "@browser-javascript-error",
+            "line": 53
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "browser-ui-links-navigation-and-operations",
+    "line": 3,
+    "keyword": "Feature",
+    "name": "Browser UI links navigation and operations",
+    "tags": [
+      {
+        "name": "@regression",
+        "line": 2
+      },
+      {
+        "name": "@browser-ui-links",
+        "line": 2
+      }
+    ],
+    "uri": "features\\browser-ui-links.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "dom-and-window-feature-links;navigate-to-key-presses-and-detect-a-pressed-key",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Navigate to Key Presses and detect a pressed key",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 151924899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I am on the Heroku home page",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 527257200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I click the \"Key Presses\" link",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 95959499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I should be on the \"/key_presses\" page",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 526599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the Key Presses input is visible",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33550000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I press the \"Tab\" key in the input",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9523600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "the result should show \"You entered: TAB\"",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2803800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 44586699
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dom-window-links",
+            "line": 5
+          },
+          {
+            "name": "@regression",
+            "line": 5
+          },
+          {
+            "name": "@dom-window-links",
+            "line": 12
+          },
+          {
+            "name": "@smoke",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "dom-and-window-feature-links;navigate-to-large-&-deep-dom-and-verify-deep-cell",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Navigate to Large & Deep DOM and verify deep cell",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 174714500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I am on the Heroku home page",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 587604600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I click the \"Large & Deep DOM\" link",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 79310400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I should be on the \"/large\" page",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 823200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "the large DOM page is loaded",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 95482600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "the deep cell \"sibling-50.3\" exists in the DOM",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4635699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 48545400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dom-window-links",
+            "line": 5
+          },
+          {
+            "name": "@regression",
+            "line": 5
+          },
+          {
+            "name": "@dom-window-links",
+            "line": 21
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "dom-and-window-feature-links;navigate-to-multiple-windows-and-open-a-new-tab",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Navigate to Multiple Windows and open a new tab",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 181353500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I am on the Heroku home page",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 553734199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "I click the \"Multiple Windows\" link",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 91182300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "I should be on the \"/windows\" page",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 561500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "the Multiple Windows page is loaded",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:76"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30254100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "I open the new window",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 88819700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "the new window should be at path \"/windows/new\"",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:80"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 693399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "the new window should have heading \"New Window\"",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:84"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24472700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 54103499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dom-window-links",
+            "line": 5
+          },
+          {
+            "name": "@regression",
+            "line": 5
+          },
+          {
+            "name": "@dom-window-links",
+            "line": 29
+          },
+          {
+            "name": "@smoke",
+            "line": 29
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "dom-and-window-feature-links;navigate-to-nested-frames-and-verify-frame-content",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "Navigate to Nested Frames and verify frame content",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 173060499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I am on the Heroku home page",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 660826499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 41,
+            "name": "I click the \"Nested Frames\" link",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 100326300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "I should be on the \"/nested_frames\" page",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 848100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "the nested frames should contain texts \"LEFT\", \"MIDDLE\", \"RIGHT\" and \"BOTTOM\"",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:89"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 156094600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 46432500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dom-window-links",
+            "line": 5
+          },
+          {
+            "name": "@regression",
+            "line": 5
+          },
+          {
+            "name": "@dom-window-links",
+            "line": 39
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "dom-and-window-feature-links;navigate-to-notification-messages-and-trigger-a-flash-message",
+        "keyword": "Scenario",
+        "line": 47,
+        "name": "Navigate to Notification Messages and trigger a flash message",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 188105999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I am on the Heroku home page",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 545241199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "I click the \"Notification Messages\" link",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 135443899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "I should be on the \"/notification_message_rendered\" page",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 661200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 50,
+            "name": "the Notification Messages page is loaded",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36976699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 51,
+            "name": "I trigger a notification",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 148459699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 52,
+            "name": "a valid notification flash message should be displayed",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2721499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 69606299
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dom-window-links",
+            "line": 5
+          },
+          {
+            "name": "@regression",
+            "line": 5
+          },
+          {
+            "name": "@dom-window-links",
+            "line": 46
+          },
+          {
+            "name": "@smoke",
+            "line": 46
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "dom-and-window-feature-links;navigate-to-redirect-link-and-be-redirected-to-status-codes",
+        "keyword": "Scenario",
+        "line": 56,
+        "name": "Navigate to Redirect Link and be redirected to status codes",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 169266700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I am on the Heroku home page",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 531211300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 57,
+            "name": "I click the \"Redirect Link\" link",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80955399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 58,
+            "name": "I should be on the \"/redirector\" page",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 677100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 59,
+            "name": "the Redirector page is loaded",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38765200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 60,
+            "name": "I click the redirect link",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 157104500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 61,
+            "name": "I should be redirected to \"/status_codes\"",
+            "match": {
+              "location": "features\\step-definitions\\dom-window-links.steps.js:110"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 904100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 52531499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dom-window-links",
+            "line": 5
+          },
+          {
+            "name": "@regression",
+            "line": 5
+          },
+          {
+            "name": "@dom-window-links",
+            "line": 55
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "dom-and-window-feature-links",
+    "line": 6,
+    "keyword": "Feature",
+    "name": "Dom and Window Feature Links",
+    "tags": [
+      {
+        "name": "@dom-window-links",
+        "line": 5
+      },
+      {
+        "name": "@regression",
+        "line": 5
+      }
+    ],
+    "uri": "features\\dom-window-links.feature"
+  },
+  {
+    "description": "  As a user\n  I want to navigate through interaction-heavy links\n  So that modal, file, auth, and frame behaviors are validated",
+    "elements": [
+      {
+        "description": "",
+        "id": "interaction-heavy-links-navigation-and-operations;entry-ad-should-show-and-close-the-modal",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Entry Ad should show and close the modal",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 194318200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for interaction links suite",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 570580900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I navigate to interaction link \"Entry Ad\"",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 89793999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should be on interaction path \"/entry_ad\"",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 895499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I perform entry ad operation",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 964113599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 55192000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@interaction-links",
+            "line": 2
+          },
+          {
+            "name": "@interaction-entry-ad",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "interaction-heavy-links-navigation-and-operations;exit-intent-should-show-the-modal-on-exit",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Exit Intent should show the modal on exit",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 213588199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for interaction links suite",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 611948300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I navigate to interaction link \"Exit Intent\"",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 131387199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I should be on interaction path \"/exit_intent\"",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 954799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I perform exit intent operation",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 496967300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 68024499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@interaction-links",
+            "line": 2
+          },
+          {
+            "name": "@interaction-exit-intent",
+            "line": 17
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "interaction-heavy-links-navigation-and-operations;file-download-should-download-a-file-and-expose-a-valid-link",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "File Download should download a file and expose a valid link",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 268775600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for interaction links suite",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 571810699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I navigate to interaction link \"File Download\"",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 93863300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I should be on interaction path \"/download\"",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 777699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I perform file download operation",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 154590000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 210736399
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@interaction-links",
+            "line": 2
+          },
+          {
+            "name": "@interaction-file-download",
+            "line": 23
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "interaction-heavy-links-navigation-and-operations;file-upload-should-upload-a-sample-file",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "File Upload should upload a sample file",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 239416199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for interaction links suite",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 665119800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "I navigate to interaction link \"File Upload\"",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 101627599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "I should be on interaction path \"/upload\"",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 877599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "I perform file upload operation",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 236690900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 71195400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@interaction-links",
+            "line": 2
+          },
+          {
+            "name": "@interaction-file-upload",
+            "line": 29
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "interaction-heavy-links-navigation-and-operations;floating-menu-should-stay-visible-while-scrolling",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "Floating Menu should stay visible while scrolling",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 253079300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for interaction links suite",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 613019099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "I navigate to interaction link \"Floating Menu\"",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 180950400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "I should be on interaction path \"/floating_menu\"",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1297299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "I perform floating menu operation",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 118203199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 85116100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@interaction-links",
+            "line": 2
+          },
+          {
+            "name": "@interaction-floating-menu",
+            "line": 35
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "interaction-heavy-links-navigation-and-operations;forgot-password-should-submit-the-email-form",
+        "keyword": "Scenario",
+        "line": 42,
+        "name": "Forgot Password should submit the email form",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 285093500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for interaction links suite",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 571719099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 43,
+            "name": "I navigate to interaction link \"Forgot Password\"",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 105254399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "I should be on interaction path \"/forgot_password\"",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 903899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "I perform forgot password operation",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:75"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 316489500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 74344000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@interaction-links",
+            "line": 2
+          },
+          {
+            "name": "@interaction-forgot-password",
+            "line": 41
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "interaction-heavy-links-navigation-and-operations;form-authentication-should-login-and-logout-successfully",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "Form Authentication should login and logout successfully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 272893800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for interaction links suite",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 580489300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 49,
+            "name": "I navigate to interaction link \"Form Authentication\"",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 116528200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "I should be on interaction path \"/login\"",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 778999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 51,
+            "name": "I perform form authentication operation",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 492121399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 57203199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@interaction-links",
+            "line": 2
+          },
+          {
+            "name": "@interaction-form-authentication",
+            "line": 47
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "interaction-heavy-links-navigation-and-operations;frames-should-support-iframe-and-nested-frame-checks",
+        "keyword": "Scenario",
+        "line": 54,
+        "name": "Frames should support iframe and nested frame checks",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 266688899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for interaction links suite",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 570913899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 55,
+            "name": "I navigate to interaction link \"Frames\"",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 104627300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "I should be on interaction path \"/frames\"",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 515399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 57,
+            "name": "I perform frames operations",
+            "match": {
+              "location": "features\\step-definitions\\interaction-links.steps.js:92"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1412514100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 78966000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@interaction-links",
+            "line": 2
+          },
+          {
+            "name": "@interaction-frames",
+            "line": 53
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "interaction-heavy-links-navigation-and-operations",
+    "line": 3,
+    "keyword": "Feature",
+    "name": "Interaction-heavy links navigation and operations",
+    "tags": [
+      {
+        "name": "@regression",
+        "line": 2
+      },
+      {
+        "name": "@interaction-links",
+        "line": 2
+      }
+    ],
+    "uri": "features\\interaction-links.feature"
+  },
+  {
+    "description": "  As a user\n  I want to navigate to the A/B Testing page from the homepage\n  So that I can verify the page loads with correct content",
+    "elements": [
+      {
+        "description": "",
+        "id": "a/b-testing;navigate-to-a/b-testing-page-from-homepage",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Navigate to A/B Testing page from homepage",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 257604299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open the The Internet homepage",
+            "match": {
+              "location": "features\\step-definitions\\navigation-links.steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 577477400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I navigate to \"A/B Testing\" link",
+            "match": {
+              "location": "features\\step-definitions\\navigation-links.steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 107001399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should be on path \"/abtest\"",
+            "match": {
+              "location": "features\\step-definitions\\navigation-links.steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 651699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 59457399
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@ab-testing",
+            "line": 2
+          },
+          {
+            "name": "@smoke",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "a/b-testing;a/b-testing-page-displays-valid-heading-and-description",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "A/B Testing page displays valid heading and description",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 228563399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open the The Internet homepage",
+            "match": {
+              "location": "features\\step-definitions\\navigation-links.steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 547184600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I navigate to \"A/B Testing\" link",
+            "match": {
+              "location": "features\\step-definitions\\navigation-links.steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 76765100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I should be on path \"/abtest\"",
+            "match": {
+              "location": "features\\step-definitions\\navigation-links.steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 685400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I should see A/B Testing page content",
+            "match": {
+              "location": "features\\step-definitions\\navigation-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42715700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 50373700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@ab-testing",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "a/b-testing",
+    "line": 3,
+    "keyword": "Feature",
+    "name": "A/B Testing",
+    "tags": [
+      {
+        "name": "@regression",
+        "line": 2
+      },
+      {
+        "name": "@ab-testing",
+        "line": 2
+      }
+    ],
+    "uri": "features\\navigation-links.feature"
+  },
+  {
+    "description": "  As a user\n  I want to navigate through secure and DOM-heavy links\n  So that protected routes and complex UI behaviors are validated",
+    "elements": [
+      {
+        "description": "",
+        "id": "secure-and-dom-links-navigation-and-operations;secure-file-download-should-enforce-protected-access-behavior",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Secure File Download should enforce protected access behavior",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 213405400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for secure dom links suite",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 559947900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I navigate to secure dom link \"Secure File Download\"",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 84262700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should be on secure dom path \"/download_secure\" or \"/login\"",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2203300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I perform secure file download operation",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58671200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 54728199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@secure-dom-links",
+            "line": 2
+          },
+          {
+            "name": "@secure-file-download",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "secure-and-dom-links-navigation-and-operations;shadow-dom-should-expose-paragraph-content-from-shadow-root",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Shadow DOM should expose paragraph content from shadow root",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 217656299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for secure dom links suite",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 556994399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I navigate to secure dom link \"Shadow DOM\"",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 86627599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I should be on secure dom path \"/shadowdom\"",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 677899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I perform shadow dom operation",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42517900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 51582199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@secure-dom-links",
+            "line": 2
+          },
+          {
+            "name": "@shadow-dom",
+            "line": 17
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "secure-and-dom-links-navigation-and-operations;shifting-content-should-open-menu-example",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Shifting Content should open menu example",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 255847200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for secure dom links suite",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 614336100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I navigate to secure dom link \"Shifting Content\"",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 93529399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I should be on secure dom path \"/shifting_content\"",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 964700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I perform shifting content operation",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 178908500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 68298899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@secure-dom-links",
+            "line": 2
+          },
+          {
+            "name": "@shifting-content",
+            "line": 23
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "secure-and-dom-links-navigation-and-operations;slow-resources-should-load-correctly-and-return-api-success",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Slow Resources should load correctly and return API success",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 273388000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for secure dom links suite",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 622125199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "I navigate to secure dom link \"Slow Resources\"",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 108556499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "I should be on secure dom path \"/slow\"",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 920599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "I perform slow resources operation",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 104332500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 74795099
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@secure-dom-links",
+            "line": 2
+          },
+          {
+            "name": "@slow-resources",
+            "line": 29
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "secure-and-dom-links-navigation-and-operations;sortable-data-tables-should-sort-last-names-ascending",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "Sortable Data Tables should sort last names ascending",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 273544099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for secure dom links suite",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 579946599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "I navigate to secure dom link \"Sortable Data Tables\"",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 105596000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "I should be on secure dom path \"/tables\"",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 779900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "I perform sortable data tables operation",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 138829800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 69312700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@secure-dom-links",
+            "line": 2
+          },
+          {
+            "name": "@sortable-data-tables",
+            "line": 35
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "secure-and-dom-links-navigation-and-operations;status-codes-should-show-200-status-text-and-api-code",
+        "keyword": "Scenario",
+        "line": 42,
+        "name": "Status Codes should show 200 status text and API code",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 284168300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for secure dom links suite",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 581287400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 43,
+            "name": "I navigate to secure dom link \"Status Codes\"",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 90974000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "I should be on secure dom path \"/status_codes\"",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 776499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "I perform status codes operation",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 217168999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 63120500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@secure-dom-links",
+            "line": 2
+          },
+          {
+            "name": "@status-codes",
+            "line": 41
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "secure-and-dom-links-navigation-and-operations;typos-page-should-contain-the-expected-typo-variation",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "Typos page should contain the expected typo variation",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 262476599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for secure dom links suite",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 607304100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 49,
+            "name": "I navigate to secure dom link \"Typos\"",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 122870600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "I should be on secure dom path \"/typos\"",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1026899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 51,
+            "name": "I perform typos operation",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:77"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65020000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 79581500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@secure-dom-links",
+            "line": 2
+          },
+          {
+            "name": "@typos",
+            "line": 47
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "secure-and-dom-links-navigation-and-operations;wysiwyg-editor-should-show-and-update-editor-text",
+        "keyword": "Scenario",
+        "line": 54,
+        "name": "WYSIWYG Editor should show and update editor text",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 327146200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for secure dom links suite",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 606382199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 55,
+            "name": "I navigate to secure dom link \"WYSIWYG Editor\"",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 127784199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "I should be on secure dom path \"/tinymce\"",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 767600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 57,
+            "name": "I perform wysiwyg editor operation",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1094932700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 100397500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@secure-dom-links",
+            "line": 2
+          },
+          {
+            "name": "@wysiwyg-editor",
+            "line": 53
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "secure-and-dom-links-navigation-and-operations",
+    "line": 3,
+    "keyword": "Feature",
+    "name": "Secure and DOM links navigation and operations",
+    "tags": [
+      {
+        "name": "@regression",
+        "line": 2
+      },
+      {
+        "name": "@secure-dom-links",
+        "line": 2
+      }
+    ],
+    "uri": "features\\secure-dom-links.feature"
+  }
+]

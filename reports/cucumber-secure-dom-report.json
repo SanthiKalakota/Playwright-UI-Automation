@@ -1,0 +1,758 @@
+[
+  {
+    "description": "  As a user\n  I want to navigate through secure and DOM-heavy links\n  So that protected routes and complex UI behaviors are validated",
+    "elements": [
+      {
+        "description": "",
+        "id": "secure-and-dom-links-navigation-and-operations;secure-file-download-should-enforce-protected-access-behavior",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Secure File Download should enforce protected access behavior",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 175402700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for secure dom links suite",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 542809000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I navigate to secure dom link \"Secure File Download\"",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 90158599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should be on secure dom path \"/download_secure\" or \"/login\"",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2698000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I perform secure file download operation",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 192849999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 51166799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@secure-dom-links",
+            "line": 2
+          },
+          {
+            "name": "@secure-file-download",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "secure-and-dom-links-navigation-and-operations;shadow-dom-should-expose-paragraph-content-from-shadow-root",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Shadow DOM should expose paragraph content from shadow root",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 145534499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for secure dom links suite",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 532241800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I navigate to secure dom link \"Shadow DOM\"",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 87983700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I should be on secure dom path \"/shadowdom\"",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 939499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I perform shadow dom operation",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34353300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 37030999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@secure-dom-links",
+            "line": 2
+          },
+          {
+            "name": "@shadow-dom",
+            "line": 17
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "secure-and-dom-links-navigation-and-operations;shifting-content-should-open-menu-example",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Shifting Content should open menu example",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 145433900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for secure dom links suite",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 544649800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I navigate to secure dom link \"Shifting Content\"",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 104461699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I should be on secure dom path \"/shifting_content\"",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 713600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I perform shifting content operation",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 155701800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 51372899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@secure-dom-links",
+            "line": 2
+          },
+          {
+            "name": "@shifting-content",
+            "line": 23
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "secure-and-dom-links-navigation-and-operations;slow-resources-should-load-correctly-and-return-api-success",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Slow Resources should load correctly and return API success",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 188821699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for secure dom links suite",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 555687500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "I navigate to secure dom link \"Slow Resources\"",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 85598299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "I should be on secure dom path \"/slow\"",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 662599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "I perform slow resources operation",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 82943899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 54703700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@secure-dom-links",
+            "line": 2
+          },
+          {
+            "name": "@slow-resources",
+            "line": 29
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "secure-and-dom-links-navigation-and-operations;sortable-data-tables-should-sort-last-names-ascending",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "Sortable Data Tables should sort last names ascending",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 196574800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for secure dom links suite",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 559268100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "I navigate to secure dom link \"Sortable Data Tables\"",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 96346299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "I should be on secure dom path \"/tables\"",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 617000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "I perform sortable data tables operation",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 187375799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 49791199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@secure-dom-links",
+            "line": 2
+          },
+          {
+            "name": "@sortable-data-tables",
+            "line": 35
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "secure-and-dom-links-navigation-and-operations;status-codes-should-show-200-status-text-and-api-code",
+        "keyword": "Scenario",
+        "line": 42,
+        "name": "Status Codes should show 200 status text and API code",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 196928100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for secure dom links suite",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 552281900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 43,
+            "name": "I navigate to secure dom link \"Status Codes\"",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 78100900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "I should be on secure dom path \"/status_codes\"",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 602599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "I perform status codes operation",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 196833400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 51261999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@secure-dom-links",
+            "line": 2
+          },
+          {
+            "name": "@status-codes",
+            "line": 41
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "secure-and-dom-links-navigation-and-operations;typos-page-should-contain-the-expected-typo-variation",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "Typos page should contain the expected typo variation",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 205550400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for secure dom links suite",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 606227400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 49,
+            "name": "I navigate to secure dom link \"Typos\"",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 103924099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "I should be on secure dom path \"/typos\"",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 707799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 51,
+            "name": "I perform typos operation",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:77"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40986100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 48942999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@secure-dom-links",
+            "line": 2
+          },
+          {
+            "name": "@typos",
+            "line": 47
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "secure-and-dom-links-navigation-and-operations;wysiwyg-editor-should-show-and-update-editor-text",
+        "keyword": "Scenario",
+        "line": 54,
+        "name": "WYSIWYG Editor should show and update editor text",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 208686099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open homepage for secure dom links suite",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 555947099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 55,
+            "name": "I navigate to secure dom link \"WYSIWYG Editor\"",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 94456099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "I should be on secure dom path \"/tinymce\"",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 736399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 57,
+            "name": "I perform wysiwyg editor operation",
+            "match": {
+              "location": "features\\step-definitions\\secure-dom-links.steps.js:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 840180899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 55691399
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@secure-dom-links",
+            "line": 2
+          },
+          {
+            "name": "@wysiwyg-editor",
+            "line": 53
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "secure-and-dom-links-navigation-and-operations",
+    "line": 3,
+    "keyword": "Feature",
+    "name": "Secure and DOM links navigation and operations",
+    "tags": [
+      {
+        "name": "@regression",
+        "line": 2
+      },
+      {
+        "name": "@secure-dom-links",
+        "line": 2
+      }
+    ],
+    "uri": "features\\secure-dom-links.feature"
+  }
+]
